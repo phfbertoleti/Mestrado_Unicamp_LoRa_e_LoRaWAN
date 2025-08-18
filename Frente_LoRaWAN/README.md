@@ -1,0 +1,35 @@
+# Mestrado na FEEC (Unicamp) - frente LoRaWAN
+
+Aqui encontra-se os dados, experimentos e materiais produzidos referentes a parte de LoRaWAN do meu mestrado.
+
+## Conteúdo 1: end-device LoRaWAN
+
+O end-device LoRaWAN contido aqui utiliza como hardware:
+
+* Um ESP32 WROOM
+* Um módulo LoRaWAN Radioenge (https://www.radioenge.com.br/produto/modulo-lorawan/ )
+* Uma fonte 5V/2A (pode ser substituído por powerbank)
+
+A programação do ESP-IDF foi feita usando o VSCode, extensão ESP-IDF e ESP-IDF versão 5.4.2.
+
+Neste momento, o end-device limita-se a enviar, a cada 30 minutos, os bytes fixos 0x01, 0x02 e 0x03 a cada 30 minutos.
+Há planos de substituir os dados fixos (0x01, 0x02 e 0x03) pelo envio da leitura de uma entrada de tamper e também a leitura de uma distância medida por um sensor ultrasônico HC-SR04. Dessa forma, desde o momento atual, é preciso colocar no mesmo nível da pasta "end_device" a versão mais recente da lib https://github.com/UncleRus/esp-idf-lib .
+
+Obervação: este end-device está preparado para operar na frequência de 916,8MHz e SF=7.
+
+## Conteúdo 2: gateway LoRaWAN monocanal
+
+O gateway LoRaWAN monocanal contido aqui deriva-se do seguinte projeto https://github.com/things4u/ESP-1ch-Gateway . Eta derivação contém algumas customizações para que o gateway melhor se adapte ao uo neste mestrado.
+Este gateway utiliza como hardware:
+
+* Uma placa Heltec WiFi LoRa V2, de frequência 868-915MHz
+* Uma fonte 5V/2A
+
+Para compilar e utilizar o gateway, siga as instruções a seguir:
+
+1. Copie todas as bibliotecas / pastas em "libraries" para a pasta de bibliotecas Arduino do seu computador (exemplo: Documents\Arduino\libraries). Dessa forma, você possuirá todas as biblitoecas necessárias nas versões esperadas.
+2. No arquivo configNode.h, altere a rede Wi-Fi (SSID) e senha da rede Wi-Fi na lista wpa. Se você quiser, pode adicionar quantas redes desejar nessa lista, de forma a conter redundâncias em caso de falha da rede Wi-Fi.
+Após a alteração, o código do gateway pode ser compilado e, depois, gravado na placa Heltec WiFi LoRa V2. 
+3. Quando o gateway inicializar, ele escreverá nas informações do Serial Monitor um ID (Gateway ID). Este ID corresponde ao endereço MAC do gateway, e deve ser usado na The Things Network (TTN) para cadastro do gateway no campo Gateway EUI.
+
+Obervação: este gateway está preparado para operar na frequência de 916,8MHz e SF=7.
