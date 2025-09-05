@@ -33,3 +33,12 @@ Após a alteração, o código do gateway pode ser compilado e, depois, gravado 
 3. Quando o gateway inicializar, ele escreverá nas informações do Serial Monitor um ID (Gateway ID). Este ID corresponde ao endereço MAC do gateway, e deve ser usado na The Things Network (TTN) para cadastro do gateway no campo Gateway EUI.
 
 Obervação: este gateway está preparado para operar na frequência de 916,8MHz e SF=7.
+
+
+## Vídeos explicativos
+
+Para melhor exempificr como estabelecer o gateway LoRaWAN monocanal e o end-device LoRaWAN, existem os seguintes vídeos:
+
+* *Gateway LoRaWAN monocanal:* explicação de parametrização de software, compilação e gravação Heltec WiFi LoRa V2: https://drive.google.com/file/d/1u9MdMoPO0pTy7fwZNUEaMupEhpbTwCIz/view?usp=sharing
+
+* *End-device:* explicação do hardware e breve explicação da integração com The Things Network: https://drive.google.com/file/d/1UwrbAW2tfpAEE6ByUf8U8BOljeANyCgI/view?usp=sharing
