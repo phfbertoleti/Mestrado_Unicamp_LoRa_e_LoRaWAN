@@ -27,10 +27,11 @@ Este gateway utiliza como hardware:
 
 Para compilar e utilizar o gateway, siga as instruções a seguir:
 
-1. Copie todas as bibliotecas / pastas em "libraries" para a pasta de bibliotecas Arduino do seu computador (exemplo: Documents\Arduino\libraries). Dessa forma, você possuirá todas as biblitoecas necessárias nas versões esperadas.
-2. No arquivo configNode.h, altere a rede Wi-Fi (SSID) e senha da rede Wi-Fi na lista wpa. Se você quiser, pode adicionar quantas redes desejar nessa lista, de forma a conter redundâncias em caso de falha da rede Wi-Fi.
+1. Na Arduino IDE, na tela de gerenciamento de placas, instale a versão 2.0.17 do esp32
+2. Copie todas as bibliotecas / pastas em "libraries" para a pasta de bibliotecas Arduino do seu computador (exemplo: Documents\Arduino\libraries). Dessa forma, você possuirá todas as biblitoecas necessárias nas versões esperadas.
+3. No arquivo configNode.h, altere a rede Wi-Fi (SSID) e senha da rede Wi-Fi na lista wpa. Se você quiser, pode adicionar quantas redes desejar nessa lista, de forma a conter redundâncias em caso de falha da rede Wi-Fi.
 Após a alteração, o código do gateway pode ser compilado e, depois, gravado na placa Heltec WiFi LoRa V2. 
-3. Quando o gateway inicializar, ele escreverá nas informações do Serial Monitor um ID (Gateway ID). Este ID corresponde ao endereço MAC do gateway, e deve ser usado na The Things Network (TTN) para cadastro do gateway no campo Gateway EUI.
+4. Quando o gateway inicializar, ele escreverá nas informações do Serial Monitor um ID (Gateway ID). Este ID corresponde ao endereço MAC do gateway, e deve ser usado na The Things Network (TTN) para cadastro do gateway no campo Gateway EUI.
 
 Obervação: este gateway está preparado para operar na frequência de 916,8MHz e SF=7.
 
