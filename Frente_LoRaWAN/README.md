@@ -12,7 +12,7 @@ O end-device LoRaWAN contido aqui utiliza como hardware:
 
 O end-device LoRaWAN, montado no projeto de PCB contido neste repositório, pode ser visto na figura abaixo:
 
-Foto do end-device montado: ![Foto do end-device montado)](https://raw.githubusercontent.com/phfbertoleti/Mestrado_Unicamp_LoRa_e_LoRaWAN/Frente_LoRaWAN/end_device/Fotos/end_device_montado.jpg)
+Foto do end-device montado: ![Foto do end-device montado)](https://raw.githubusercontent.com/phfbertoleti/Mestrado_Unicamp_LoRa_e_LoRaWAN/main/Frente_LoRaWAN/end_device/Fotos/end_device_montado.jpg)
 
 A programação do ESP-IDF foi feita usando o VSCode, extensão ESP-IDF e ESP-IDF versão 5.4.2.
 
