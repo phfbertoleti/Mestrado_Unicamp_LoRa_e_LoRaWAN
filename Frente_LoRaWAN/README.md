@@ -30,8 +30,8 @@ Este gateway é mostrado na figura abaixo:
 
 Fotos dos gateways LoRaWAN monocanal feitos:
 
-1. Versão com Heltec: ![Gateway LoRaWAN monocanal com Heltec)](https://raw.githubusercontent.com/phfbertoleti/Mestrado_Unicamp_LoRa_e_LoRaWAN/blob/main/Frente_LoRaWAN/gateway_monocanal/Fotos/Heltec/foto_gateway_monocanal_no_case.jpg)
-2. Versão com ESP32 WROOM-32 e RF95: ![Gateway LoRaWAN monocanal com ESP32 WROOM 32 e RF95)](https://raw.githubusercontent.com/phfbertoleti/Mestrado_Unicamp_LoRa_e_LoRaWAN/blob/main/Frente_LoRaWAN/gateway_monocanal/Fotos/RF95/foto_gateway_monocanal_com_case_RF95_1.jpeg)
+1. Versão com Heltec: ![Gateway LoRaWAN monocanal com Heltec)](https://github.com/phfbertoleti/Mestrado_Unicamp_LoRa_e_LoRaWAN/blob/main/Frente_LoRaWAN/gateway_monocanal/Fotos/Heltec/foto_gateway_monocanal_no_case.jpg)
+2. Versão com ESP32 WROOM-32 e RF95: ![Gateway LoRaWAN monocanal com ESP32 WROOM 32 e RF95)](https://github.com/phfbertoleti/Mestrado_Unicamp_LoRa_e_LoRaWAN/blob/main/Frente_LoRaWAN/gateway_monocanal/Fotos/RF95/foto_gateway_monocanal_com_case_RF95_1.jpeg)
 
 Este gateway utiliza como hardware:
 
