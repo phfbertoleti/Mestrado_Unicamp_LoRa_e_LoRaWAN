@@ -33,12 +33,12 @@ Fotos dos gateways LoRaWAN monocanal feitos:
 1. Versão com Heltec: ![Gateway LoRaWAN monocanal com Heltec)](https://github.com/phfbertoleti/Mestrado_Unicamp_LoRa_e_LoRaWAN/blob/main/Frente_LoRaWAN/gateway_monocanal/Fotos/Heltec/foto_gateway_monocanal_no_case.jpg)
 2. Versão com ESP32 WROOM-32 e RF95: ![Gateway LoRaWAN monocanal com ESP32 WROOM 32 e RF95)](https://github.com/phfbertoleti/Mestrado_Unicamp_LoRa_e_LoRaWAN/blob/main/Frente_LoRaWAN/gateway_monocanal/Fotos/RF95/foto_gateway_monocanal_com_case_RF95_1.jpeg)
 
-Este gateway utiliza como hardware:
+Este gateway pode utilizar como hardware:
 
-* Uma placa Heltec WiFi LoRa V2, de frequência 868-915MHz
+* Uma placa Heltec WiFi LoRa V2, de frequência 868-915MHz OU um ESP32-WROOM 32 com rádio LoRa RF95
 * Uma fonte 5V/2A
 
-Para compilar e utilizar o gateway, siga as instruções a seguir:
+Para compilar e utilizar o gateway (independente do hardware utilizado), siga as instruções a seguir:
 
 1. Na Arduino IDE, na tela de gerenciamento de placas, instale a versão 2.0.17 do esp32
 2. Copie todas as bibliotecas / pastas em "libraries" para a pasta de bibliotecas Arduino do seu computador (exemplo: Documents\Arduino\libraries). Dessa forma, você possuirá todas as biblitoecas necessárias nas versões esperadas.
