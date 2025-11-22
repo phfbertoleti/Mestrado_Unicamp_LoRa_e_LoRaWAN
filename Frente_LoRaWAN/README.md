@@ -50,6 +50,10 @@ Obervações:
 * Este gateway está preparado para operar na frequência de 916,8MHz e SF=7.
 * Para abrigar este gateway LoRaWAN monocanal, foi utilizado o seguinte case, feito na impressora 3D: https://www.thingiverse.com/thing:6522462
 
+## Conteúdo 3: TTN
+
+Reune informações para conectar o gateway LoRaWAN monocanal a plataforma The Things Network (TTN), de forma a usar a plataforma como Application Server e Network Server.
+
 
 ## Vídeos explicativos
 
